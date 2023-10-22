@@ -1,7 +1,7 @@
 /* pages/my/my.wxss */
 .header{
   height: 200rpx;
-  background-color: aqua;
+  /* background-color: aqua; */
   margin-bottom: 20rpx;
 }
 

@@ -41,7 +41,6 @@ Page({
       }
     }).then((resp) => {
       const answerList = resp?.result?.data?.[0]?.answer || [];
-      console.log(answerList)
       if (answerList.length <= 0) {
         return wx.showToast({
           title: '秘语有误！',
@@ -68,7 +67,6 @@ Page({
         success(res) {
           wx.getClipboardData({
             success(res) {
-              console.log(res.data) // data
             }
           })
         },

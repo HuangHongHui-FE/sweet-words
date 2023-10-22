@@ -1,12 +1,12 @@
-// pages/my/my.js
+const appInstance = getApp();
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    optionsList: [
-      {
+    optionsList: [{
         key: 'version',
         text: '版本计划',
       },
@@ -18,8 +18,9 @@ Page({
   },
 
   goPage(option) {
-    const { page } = option?.target?.dataset || {};
-    console.log(page)
+    const {
+      page
+    } = option?.target?.dataset || {};
     switch (page) {
       case 'version':
         wx.navigateTo({

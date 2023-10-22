@@ -15,6 +15,8 @@ App({
 
     this.globalData = {
       envId: 'sweet-words-test-4fbkdgwd2395221',
+      // appid: 'wx4daaa035791760f0',
+      // secret: '7a31ceda4e334b16ebb5c166f4df357b',
     };
   }
 });

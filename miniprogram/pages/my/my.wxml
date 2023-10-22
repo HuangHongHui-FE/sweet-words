@@ -1,6 +1,4 @@
 <view class="header">
-  我的信息
-  <button bindtap="login">登录</button>
 </view>
 
 <view class="options" wx:for="{{optionsList}}" wx:for-item="option" wx:key="index">
