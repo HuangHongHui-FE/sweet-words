@@ -1,0 +1,14 @@
+<view class="header">
+  我的信息
+  <button bindtap="login">登录</button>
+</view>
+
+<view class="options" wx:for="{{optionsList}}" wx:for-item="option" wx:key="index">
+  <view class="option" bind:tap="goPage" data-page="{{option.key}}">{{option.text}}</view>
+</view>
+
+<button open-type="contact" class="contact" type="default">联系客服</button>
+
+<view class="footer">联系QQ: 3090517917</view>
+<view class="footer">想要的秘语可联系QQ或客服进行反馈进qq群</view>
+<view class="footer">正在建设中ing，一切皆有可能</view>

@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/version/version",
+    "pages/teach/teach"
+  ],
+  "tabBar": {
+    "backgroundColor": "#FF6A6A",
+    "color": "#FFFFFF",
+    "selectedColor": "#2a82ef",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/shouye.png",
+      "selectedIconPath": "images/shouye1.png"
+    }, {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "images/wode.png",
+      "selectedIconPath": "images/wode1.png"
+    }]
+  },
+  "window": {
+    "backgroundColor": "#FF6A6A",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF6A6A",
+    "navigationBarTitleText": "甜言m语",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

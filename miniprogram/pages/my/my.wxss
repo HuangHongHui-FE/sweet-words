@@ -1,0 +1,38 @@
+/* pages/my/my.wxss */
+.header{
+  height: 200rpx;
+  background-color: aqua;
+  margin-bottom: 20rpx;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40rpx;
+  color: rgb(101, 104, 104);
+  border-bottom: 1rpx solid rgb(146, 137, 137);
+  border-left: 1rpx solid rgb(146, 137, 137);
+  border-right: 1rpx solid rgb(146, 137, 137);
+  padding: 20rpx 0;
+}
+.options:last-child {
+  border-bottom: 1rpx solid rgb(146, 137, 137);
+}
+
+.option{
+  height: 60rpx;
+}
+
+.contact{
+  font-size: 30rpx;
+  /* color: rgb(163, 140, 140); */
+}
+
+
+.footer{
+  text-align: center;
+  font-size: 25rpx;
+  color: rgb(163, 140, 140);
+}

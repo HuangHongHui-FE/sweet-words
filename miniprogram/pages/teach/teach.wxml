@@ -1,0 +1,4 @@
+<!--pages/teach/teach.wxml-->
+<view class="video">
+  <video src="cloud://sweet-words-test-4fbkdgwd2395221.7377-sweet-words-test-4fbkdgwd2395221-1305284859/使用教程.mp4" />
+</view>

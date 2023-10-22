@@ -1,0 +1,22 @@
+<view class="con">
+  <text class="text">请输入秘语:</text>
+  <input class="con_input" placeholder="请输入秘语" bind:input="inputMiChange" />
+  <button type="default" class="button" bind:tap="analyzeInput">解析</button>
+  <view>
+    <text class="text">答案为:</text>
+  </view>
+
+  <view wx:if="{{isShowAnswer}}">
+    <view wx:for="{{answerList}}" wx:for-item="answer" class="answerList" wx:key="index">
+      <view wx:key="{{index}}" class="answerText">
+        <text class="indexText">{{index+1}}-</text>
+        <text>{{answer.text}}</text>
+      </view>
+      <view class="copy" bind:tap="copyAnswer" data-text="{{answer.url}}">复制</view>
+    </view>
+  </view>
+
+  <view wx:else>
+    <text class="text">请先输入正确的秘语进行解析</text>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class="version">
+  <view class="title">版本计划:</view>
+  <view class="content">
+    <view>
+      目前：
+      <view class="detail">仅支持已有秘语解密</view>
+    </view>
+    <view>
+      后续：
+      <view class="detail">支持用户解密历史管理、用户自己上传秘语、答案。</view>
+    </view>
+  </view>
+</view>

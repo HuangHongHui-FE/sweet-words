@@ -1,0 +1,17 @@
+/* pages/version/version.wxss */
+.version{
+  margin: 20rpx;
+  color: rgb(97, 90, 81);
+}
+
+.title {
+  font-size: large;
+  margin: 0 0 10rpx 0;
+}
+.content{
+  padding: 0 0 0 40rpx;
+}
+
+.detail{
+  padding: 0 0 0 80rpx;
+}
